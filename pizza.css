@@ -1,0 +1,632 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.nov{
+	height: 70px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+
+}
+.logo{
+	font-size:30px;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: bold;
+ 	margin-left: 143px;
+ 	float: left;
+ 	position: sticky;
+	top: -20px;
+
+ 	
+
+}
+
+.meanu{
+	height: 60px;
+	width: 35%;
+	margin: 0px 855px;
+	position: sticky;
+	top: 0px;
+	
+}
+li{
+	 font-size: 16px;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 25px;
+	margin-left: 10px;
+	cursor: pointer;
+	font-family: 'Lato',Verdana,Helvetica,sans-serif;
+}
+li a{
+
+	color: rgb(210, 41, 41);
+	list-style: none;
+	list-style-type: none;
+	text-decoration: none;
+
+}
+li a:hover{
+	color: #8490FF;
+	cursor: pointer;
+	text-decoration: none;
+}
+.butten{
+	cursor: pointer;
+	text-align: center;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-family: 'Lato',Verdana,Helvetica,sans-serif;
+}
+.heder{
+	height: 630px;
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-size:center;
+	background-image: url(img/pizaa1.jpg);
+	position: absolute;
+	top:10%;
+	float: left;
+  
+}
+
+.mid{
+	margin-top: -64px;
+	background-color:#2120209e;
+	height: 630px;
+	width: 100%;
+	position: absolute;
+	top:10%;
+	float: left;
+
+}
+.Acme{
+	    font-family: 'Roboto', sans-serif;
+	    font-size: 52px;
+	    color: white;
+	    font-weight: 800;
+        margin-top: 249px;
+        margin-left: 620px;
+	    text-align: center;
+	    position: absolute;
+
+}
+.mp{
+	font-size: 22px;
+	margin-left: 555px;
+	font-family: 'Lato',Verdana,Helvetica,sans-serif;
+	color: white;
+	margin-top: 320px;
+}
+
+.third{
+	background: rgb(243, 243, 243);
+	height: 950px;
+	width: 100%;
+	position: absolute;
+	top: 686px;
+
+
+}
+.col1{
+	height: 170px;
+	flex: 0 0 8.333333%;
+    max-width: 15.333333%;
+	margin-left: 360px;
+    margin-top: 100px;
+    clear: both;
+    float: left;
+}
+.us{
+	font-family: 'Roboto', sans-serif;
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+.col2{
+	height: 200px;
+	width: 50%;
+	float: left;
+	margin-top: 90px;
+	margin-left: 120px;
+}
+.text{
+	font-family:'Lato',Verdana,Helvetica,sans-serif;
+	font-size: 18px; 
+	line-height: 1.4;
+}
+.pi1{
+	
+    margin-left: 275px;
+    background-image: url(https://ucarecdn.com/425d7021-cd4f-46cb-911b-d0eced47ed42/-/format/auto/-/resize/x275/-/progressive/yes/piza---sweet-pepper-cheese-chicken.jpg);
+    height: 270px;
+    background-size: 300px 270px;   
+    border-radius: 3px;
+    width: 301px;
+    margin-top: 20px;
+	float: left;
+	background-color: white;
+}
+.pi2{
+	
+    margin-left: 30px;
+    background-image: url(https://ucarecdn.com/b6ec3082-61a2-4b3f-9e72-d32f47d884d0/-/format/auto/-/resize/x275/-/progressive/yes/pizza---4-cheese-italian.jpg);
+    background-size: 300px 270px;   
+    border-radius: 3px;
+    height: 270px;
+    width: 301px;
+    margin-top: 20px;
+	float: left;
+	background-color: white;
+}
+.pi3{
+	
+    margin-left: 30px;
+    background-image: url(https://ucarecdn.com/b2c62edb-df58-4031-8611-1354710c4c17/-/format/auto/-/resize/x275/-/progressive/yes/pizza---italian-mixture.jpg);
+     background-size: 300px 270px;   
+    border-radius: 3px;
+    height: 270px;
+    width: 301px;
+    margin-top: 20px;
+	float: left;
+	background-color: white;
+}
+
+.pi4{
+	background-image: url(https://ucarecdn.com/7601e54d-afdb-4439-87ec-b5192b002593/-/format/auto/-/resize/x275/-/progressive/yes/pizza---mushroom-peper-onion.jpg);
+	background-size: 300px 270px;   
+    border-radius: 3px;
+    margin-left: 275px;
+    height: 270px;
+    width: 301px;
+    margin-top: 30px;
+	float: left;
+	background-color: white;
+}
+.pi5{
+	background-image: url(https://ucarecdn.com/13efadf1-6270-4a94-9748-3469d2f82c12/-/format/auto/-/resize/x275/-/progressive/yes/pasta---spaghetti-bologanese.jpg);
+	background-size: 300px 270px;   
+    border-radius: 3px;
+    margin-left: 30px;
+    height: 270px;
+    width: 301px;
+    margin-top: 30px;
+	float: left;
+	background-color: white;
+}
+.pi6{
+	
+    margin-left: 30px;
+    background-image: url(https://ucarecdn.com/bfb92767-84fd-470a-846f-2f035365ce0f/-/format/auto/-/resize/x275/-/progressive/yes/pasta--tagliatelle-creamy-with-fennel.jpg);
+    background-size: 300px 270px;   
+    border-radius: 3px;
+    height: 270px;
+    width: 301px;
+    margin-top: 30px;
+	float: left;
+	background-color: white;
+}
+
+
+.thi{
+	padding: 0px 20px;
+    width: 100%;
+    top: 70px;
+    height: 1790px;
+    margin: 0px auto;
+    position: relative;
+    float: left;
+   background: rgb(243, 243, 243);
+}
+.map{
+	    font-family: 'Roboto', sans-serif;
+	    font-size: 42px;
+	    text-align: center;
+	    margin-left: 600px;
+   		font-weight: bold;
+	    float: left;
+}
+
+.add{
+	height: 30px;
+	width: 90%;
+	margin-left: 45px;
+	margin-top: 80px;
+
+}
+.loc{
+	margin-top: -24px;
+    margin-left: 23px;
+}
+.call{
+	height: 30px;
+	width: 90%;
+	margin-left: 45px;
+	margin-top: 4px;
+}
+.num{
+	font-family: 'Lato',Verdana,Helvetica,sans-serif;
+		margin-top: -24px;
+}
+.num a{
+
+	margin-left: 30px;
+}
+.map1{
+	margin-left: 163px;
+	margin-top: 50px;
+	height: 423px;
+	width: 558px;
+	background-color: white;
+	float: left;
+}
+.call1{
+	height: 30px;
+	width: 90%;
+	margin-left: 45px;
+	margin-top: 4px;
+}
+
+span:hover{
+	color: #8490FF;cursor: pointer;
+}
+span i:hover{
+	color: #8490FF;cursor: pointer;
+}
+.num1{
+	font-family: 'Lato',Verdana,Helvetica,sans-serif;
+		margin-top: -24px;
+}
+.num1 a{
+
+	margin-left: 30px;
+}
+.map2{
+	margin-left: 50px;
+	height: 423px;
+	width: 559px;
+	margin-top: 50px;
+	float: left;
+	background-color: white;
+}
+
+   /* position: absolute;
+    width: 559px;
+    height: 200px; map*/
+
+
+.map3{
+	margin-left: -608px;
+    margin-top: 110px;
+	height: 423px;
+	width: 559px;
+	background-color: white;
+	float: left;
+}
+.map4{
+	margin-left: 616px;
+	height: 423px;
+	width: 559px;
+	margin-top: -360px;;
+	float: left;
+	background-color: white;
+}
+.map5{
+	margin-left: -616px;
+    margin-top: 110px;
+	height: 423px;
+	width: 559px;
+	background-color: white;
+	float: left;
+}
+.map6{
+	margin-left: 620px;
+	height: 423px;
+	width: 559px;
+	margin-top: -360px;
+	float: left;
+	background-color: white;
+}
+
+.Contact{
+	font-size: 42px;
+	margin-top: -190px;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	text-align: center;
+	margin-left: 600px;
+ 	font-weight: 700;
+	float: left;
+}
+.form{
+	height: 432px;
+	width: 800px;
+    margin: -100px 351px;
+	background-color: white;
+	position: absolute;
+}
+
+.five{
+	height: 700px;
+	width: 1519px;
+    margin-top: 318px;
+    margin-left: -184px;
+	 background-color:  rgb(41, 41, 41);
+	float: left;
+	
+
+}
+
+.name{
+	height: 50px;
+	width: 230px;
+	margin-left:30px;
+	margin-top: 30px;
+	border-radius: 3px;
+	border: 1px solid rgb(210, 41, 41);
+	float: left;	
+}
+.name1 input{
+	margin-left: 100px;
+	border:none;
+	margin-left: 10px;
+   
+}
+.Email{
+	height: 50px;
+	width: 230px;
+	margin-left:20px;
+	margin-top: 30px;
+	border-radius: 3px;
+	border: 1px solid rgb(210, 41, 41);
+	float: left;
+}
+
+.Phone{
+	height: 50px;
+	width: 230px;
+	margin-left:20px;
+	margin-top: 30px;
+	border-radius: 3px;
+	border: 1px solid rgb(210, 41, 41);
+	float: left;
+}
+
+.cqWbgK {
+    border-radius: 3px;
+    padding: 20px;
+    width: 90%;
+    margin-top: 30px;
+    min-height: 200px;
+    margin-left: 40px;
+}
+.Send{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.23s ease 0s;
+    text-decoration: none;
+    outline: 0px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 600;
+    white-space: pre;
+    padding: 0px 14px;
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(210, 41, 41);
+    background: rgb(210, 41, 41);
+}
+/*.cOOehS {
+    text-align: center;
+    font-size: 26px;
+
+}*/
+.icon{
+	margin-top: 100PX;
+	margin-top: 431PX;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	
+}
+.icon:hover{
+	color: white;
+	cursor: pointer;
+}
+
+.divider{
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto;
+    height: 1px;
+    color: rgb(255, 255, 255);
+    background: rgb(253, 253, 253);
+}
+
+
+
+@media(max-width: 667px){
+	col1{
+		width: 100%;
+	}
+	col2{
+		width: 100%;
+
+	}
+	.text{
+		margin-left: -120px;
+		font-size: 15px;
+		width:480px;
+		margin-top: -150px;
+	}
+	.li a{ display: none;
+
+	}
+	.heder{
+		height: 630px;
+	    width: 100%;
+	}
+	.Acme{
+			margin-left: 70px;
+			font-size: 40px;
+
+	}
+	.mp{
+		margin-left: 40px;
+		font-size: 16px;
+	}
+	.logo{
+		width: 50%;
+		margin-left: 80px;
+	}
+	.us{
+		margin-left: -300px;
+		font-size: 40px;
+	}
+	
+	.third{
+		width: 100%;
+		height: auto;
+	}
+	ul{
+		margin-left: -120px;
+	}
+	.pi1{
+		margin-left: 90px;
+	}
+	.pi2{
+		margin-left: 90px;
+	}
+	.pi3{
+		margin-left: 90px;
+	}
+	.pi4{
+		margin-left: 90px;
+	}
+	.pi5{
+		margin-left: 90px;
+	}
+	.pi6{
+		margin-left: 90px;
+	}
+
+	.map{
+		margin-left: 50px;
+	}
+	.map1{
+		margin-left:-20px;
+		width: 480px;
+	}
+	span i{
+		margin-left: -30px;
+	}
+	.loc{
+		margin-left: -10px;
+		font-size: 15px;
+	}
+	.num{
+		margin-left: -35px;
+	}
+
+
+	iframe{
+		width: 485px;
+	}
+	.map2{
+		margin-left:-20px;
+		width: 485px;
+	}
+	.num1{
+		margin-left: -35px;
+	}
+	.map3{
+		margin-top: 63px;
+		margin-left:-2px;
+		width: 485px;
+	}
+	.num1{
+		margin-left: -35px;
+	}
+	.map4{
+		margin-top: 63px;
+		margin-left:2px;
+		width: 485px;
+	}
+	.num1{
+		margin-left: -35px;
+	}
+	.map5{
+		margin-top: 63px;
+		margin-left:-2px;
+		width: 485px;
+	}
+	.num1{
+		margin-left: -35px;
+	}
+	.map6{
+		margin-top: 63px;
+		margin-left:0px;
+		width: 485px;
+	}
+	.num1{
+		margin-left: -35px;
+	}
+
+
+	.thi{
+		height: 2710px;
+		
+		
+	}
+
+
+
+
+
+
+
+	.five{
+		width: 100%;
+		margin-top: 300px;
+		margin-left: 0px;
+	}
+	.Contact{
+		margin-left: 110px;
+		font-size: 40px;
+	}
+	.form{
+		height: 500px;
+		margin-left: 30px;
+		width: 90%;
+	}
+	.name {
+		    width: 182px;
+    		margin-left: 33px;
+
+	}
+	.Email{
+		width: 182px;
+
+	}
+	.Phone{
+		width: 182px;
+		margin-left: 33px;
+	}
+	.cqWbgK{
+		margin-left: 30px;
+	}
+}
